@@ -15,6 +15,13 @@ namespace EditR.Web.Controllers
             return View();
         }
 
+        public ActionResult Editor()
+        {
+            return View();
+
+         }
+
+
         public ActionResult About()
         {
             ViewBag.Message = "Your app description page.";
